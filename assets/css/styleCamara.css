@@ -1,0 +1,10 @@
+.div-icons-header{
+  margin-left: 60px;
+}
+
+.icon-header{
+  display: flex;
+  height: 30px;
+  width: auto;
+  padding-left: 10px;
+}
