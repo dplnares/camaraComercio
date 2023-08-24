@@ -12,6 +12,11 @@
   padding-left: 10px;
 }
 
+.image-logo-without{
+  width: 150px;
+  height: auto;
+}
+
 /*
   Contact us
 */
@@ -45,19 +50,37 @@
 }
 
 .card-logo-asociado{
-  height: 250px;
-  width: 300px;
-  border: 5px;
-  border-color: 10px;
-  background-color: red;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  margin: 15px;
+  height: 400px;
+  width: 300px;  
 }
 
-.card-img-logo{
-  height: 50px;
+.img-logo-asociado{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  height: 225px;
+  width: 225px;
 }
 
 .card-body-asociado{
-  border: 1px;
+  margin-top: 10px;
   width:100%;
+}
+
+.card-title-asociado{
+  text-align: center;
+  font-weight: bold;
+}
+
+.datos-asociado{
+  font-size: 11px;
+  text-align: left;
+}
+
+.datos-asociado-titulo{
+  font-weight: bold;
 }

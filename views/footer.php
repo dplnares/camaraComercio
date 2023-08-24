@@ -3,7 +3,7 @@
 
     <div class="footer-top">
       <div class="container">
-        <div class="row">
+        <div class="row justify-content-between">
 
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>Cámara de Comercio</h3>

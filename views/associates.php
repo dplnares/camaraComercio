@@ -1,14 +1,12 @@
 <?php
-  require "../views/header.php";
+require "../views/header.php";
 ?>
 
 <body>
   <!-- HEADER -->
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center">
-      <h1 class="logo me-auto"><a href="#">Logo Camara</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt=""></a>-->
+      <a href="index.php" class="logo me-auto"><img src="../assets/img/logo-without.png" alt="camara de comercio, arequipa, peru" class="image-logo-without"></a>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
@@ -23,7 +21,7 @@
       </nav>
 
       <div class="d-flex align-items-end div-icons-header">
-      <a href="#"><img class="icon-header" src="../assets/img/icons/gmail_icon.png" alt="gmail"></a>
+        <a href="#"><img class="icon-header" src="../assets/img/icons/gmail_icon.png" alt="gmail"></a>
         <a href="#"><img class="icon-header" src="../assets/img/icons/facebook_icon.png" alt="facebook"></a>
         <a href="#"><img class="icon-header" src="../assets/img/icons/instagram_icon.png" alt="insatagram"></a>
       </div>
@@ -50,89 +48,139 @@
 
         <div class="row row-cols-1 row-cols-md-5 g-4 cards-associates">
           <div class="col card-logo-asociado">
-            <div class="card h-100">
+            <div class="card h-150">
               <div class="img-logo-asociado">
                 <img src="../assets/img/clients/client-1.png" class="card-img-top" alt="asociado">
               </div>
               <div class="card-body-asociado">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 class="card-title-asociado">Empresa X</h5>
+                <div class="datos-asociado">
+                  <p>Representante: Nombre Persona Juridica</p>
+                  <p>Dirección: Nombre Persona Juridica</p>
+                  <p>Teléfono: Nombre Persona Juridica</p>
+                  <p>Web: Nombre Persona Juridica</p>
+                </div>
               </div>
             </div>
           </div>
 
           <div class="col card-logo-asociado">
-            <div class="card h-100">
-              <img src="../assets/img/clients/client-2.png" class="card-img-top" alt="asociado">
+            <div class="card h-150">
+              <div class="img-logo-asociado">
+                <img src="../assets/img/clients/client-2.png" class="card-img-top" alt="asociado">
+              </div>
+
               <div class="card-body-asociado">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <h5 class="card-title-asociado">Empresa X</h5>
+                <div class="datos-asociado">
+                  <p>Representante: Nombre Persona Juridica</p>
+                  <p>Dirección: Nombre Persona Juridica</p>
+                  <p>Teléfono: Nombre Persona Juridica</p>
+                  <p>Web: Nombre Persona Juridica</p>
+                </div>
               </div>
             </div>
           </div>
 
           <div class="col card-logo-asociado">
-            <div class="card h-100">
-              <img src="../assets/img/clients/client-3.png" class="card-img-top" alt="asociado">
+            <div class="card h-150">
+              <div class="img-logo-asociado">
+                <img src="../assets/img/clients/client-3.png" class="card-img-top" alt="asociado">
+              </div>
               <div class="card-body-asociado">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <h5 class="card-title-asociado">Empresa X</h5>
+                <div class="datos-asociado">
+                  <p>Representante: Nombre Persona Juridica</p>
+                  <p>Dirección: Nombre Persona Juridica</p>
+                  <p>Teléfono: Nombre Persona Juridica</p>
+                  <p>Web: Nombre Persona Juridica</p>
+                </div>
               </div>
             </div>
           </div>
 
           <div class="col card-logo-asociado">
-            <div class="card h-100">
-              <img src="../assets/img/clients/client-4.png" class="card-img-top" alt="asociado">
+            <div class="card h-150">
+              <div class="img-logo-asociado">
+                <img src="../assets/img/clients/client-4.png" class="card-img-top" alt="asociado">
+              </div>
               <div class="card-body-asociado">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 class="card-title-asociado">Empresa X</h5>
+                <div class="datos-asociado">
+                  <p>Representante: Nombre Persona Juridica</p>
+                  <p>Dirección: Nombre Persona Juridica</p>
+                  <p>Teléfono: Nombre Persona Juridica</p>
+                  <p>Web: Nombre Persona Juridica</p>
+                </div>
               </div>
             </div>
           </div>
 
           <div class="col card-logo-asociado">
-            <div class="card h-100">
-              <img src="../assets/img/clients/client-5.png" class="card-img-top" alt="asociado">
-              <div class="card-body-asociado">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <div class="card h-150">
+              <div class="img-logo-asociado">
+                <img src="../assets/img/clients/client-5.png" class="card-img-top" alt="asociado">
               </div>
-            </div>
-          </div>
 
-
-        </div>
-
-        <div class="row row-cols-1 row-cols-md-5 g-4 cards-associates">
-          
-
-          <div class="col card-logo-asociado">
-            <div class="card h-100">
-              <img src="../assets/img/clients/client-6.png" class="card-img-top" alt="asociado">
               <div class="card-body-asociado">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <h5 class="card-title-asociado">Empresa X</h5>
+                <div class="datos-asociado">
+                  <p>Representante: Nombre Persona Juridica</p>
+                  <p>Dirección: Nombre Persona Juridica</p>
+                  <p>Teléfono: Nombre Persona Juridica</p>
+                  <p>Web: Nombre Persona Juridica</p>
+                </div>
               </div>
             </div>
           </div>
 
           <div class="col card-logo-asociado">
-            <div class="card h-100">
-              <img src="../assets/img/clients/client-7.png" class="card-img-top" alt="asociado">
+            <div class="card h-150">
+              <div class="img-logo-asociado">
+                <img src="../assets/img/clients/client-6.png" class="card-img-top" alt="asociado">
+              </div>
               <div class="card-body-asociado">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 class="card-title-asociado">Empresa X</h5>
+                <div class="datos-asociado">
+                  <p>Representante: Nombre Persona Juridica</p>
+                  <p>Dirección: Nombre Persona Juridica</p>
+                  <p>Teléfono: Nombre Persona Juridica</p>
+                  <p>Web: Nombre Persona Juridica</p>
+                </div>
               </div>
             </div>
           </div>
 
           <div class="col card-logo-asociado">
-            <div class="card h-100">
-              <img src="../assets/img/clients/client-8.png" class="card-img-top" alt="asociado">
+            <div class="card h-150">
+              <div class="img-logo-asociado">
+                <img src="../assets/img/clients/client-7.png" class="card-img-top" alt="asociado">
+              </div>
               <div class="card-body-asociado">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 class="card-title-asociado">Empresa X</h5>
+                <div class="datos-asociado">
+                  <p>Representante: Nombre Persona Juridica</p>
+                  <p>Dirección: Nombre Persona Juridica</p>
+                  <p>Teléfono: Nombre Persona Juridica</p>
+                  <p>Web: Nombre Persona Juridica</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col card-logo-asociado">
+            <div class="card h-150">
+              <div class="img-logo-asociado">
+                <img src="../assets/img/clients/client-8.png" class="card-img-top" alt="asociado">
+              </div>
+              <div class="card-body-asociado">
+                <h5 class="card-title-asociado">Empresa X</h5>
+                <div class="datos-asociado">
+                  <p>Representante: Nombre Persona Juridica</p>
+                  <p>Dirección: Nombre Persona Juridica</p>
+                  <p>Teléfono: Nombre Persona Juridica</p>
+                  <p>Web: Nombre Persona Juridica</p>
+                </div>
               </div>
             </div>
           </div>
@@ -143,7 +191,7 @@
   </main>
 
   <?php
-    include "../views/footer.php";
+  include "../views/footer.php";
   ?>
 
 </body>
